@@ -1,6 +1,6 @@
-#Oware Game
+# Oware Game
 
-##GAME INSTRUCTIONS
+## GAME INSTRUCTIONS
 
 The oware game was implemented by the following rules:
 
@@ -20,5 +20,5 @@ then he can't choose that move. In other way of saying, a player can set all of 
 
 - The game ends when a player reaches 24+ points, when the both players reach 24 points or when players introduce input 0.
 
-##HOW TO RUN
+## HOW TO RUN
 In order to run this game, you just need to run the "Source.exe" file.
