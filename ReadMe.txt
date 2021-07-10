@@ -1,12 +1,24 @@
-O jogo oware implementado tem as seguintes regras:
--Cada casa começa com 4 sementes e o jogador 1 pode jogar as casas de 1-6 e o jogador 2 as casas de 7-12
+#Oware Game
 
--As sementes da casa 6 vão para a casa 7 e as sementes da casa 12 para a casa 1
+##GAME INSTRUCTIONS
 
--Um jogador só pode colher as sementes quando a última semente da casa que quis "mover" calhar numa casa com 1 ou 2 sementes.
-Caso esta condição aconteça, vê-se se a casa anterior ficou com 2/3 sementes(tinha 1/2) e, se sim, então também se colhem, e assim sucessivamente até á casa que moveu.
+The oware game was implemented by the following rules:
 
--O jogador tem de deixar uma jogada livre para o oponente, isto é, a sua jogada não pode impedir o oponente de jogar.
-Dito isto, um jogador pode colocar todas as suas casas a 0 mas não pode colocar todas as casas do adversário a 0.
+- There are 6 houses for each players. Each house starts with 4 seeds 
+and player one can choose an house from 1 to 6 and player two can choose an house from 7 to 12.
 
--O jogo acaba quando um dos jogadores tiver + de 24 pontos, os 2 jogadores 24 ou quando os players assim o entendem e colocam 0 como input(infinite game)
+- The seeds of house six are parsed throw the following houses, starting at house 7. By the same way of thought, the 
+seeds from house 12 are parsed starting at the house 1.
+
+- A player can only harvest seeds when the last seed from the house he wanted to parse lands on a house
+with 1 or 2 seeds.
+If this condition happens, then if the previous house has 2 or 3 seeds it will be harvested to. This will be repeated from the house before 
+the last house and so on until there are no houses that match this conditions.
+
+- A player has to leave options of playing for the oponent, that is, if the play he wants to do will block the oponent to play, 
+then he can't choose that move. In other way of saying, a player can set all of his houses with 0 seeds but cannot set all oponent houses with 0 seeds.
+
+- The game ends when a player reaches 24+ points, when the both players reach 24 points or when players introduce input 0.
+
+##HOW TO RUN
+In order to run this game, you just need to run the "Source.exe" file.
